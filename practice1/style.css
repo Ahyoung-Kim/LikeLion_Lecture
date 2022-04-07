@@ -120,11 +120,11 @@ section p {
 }
 
 #movie-sec {
-  background-image: url('./images/avengers.PNG');
+  background-image: url('./avengers.PNG');
 }
 
 #dog-sec {
-  background-image: url('./images/dog.jpg');
+  background-image: url('./dog.jpg');
 }
 
 /*이미지 위에 마우스를 올렸을 때 텍스트가 위로 오도록*/
