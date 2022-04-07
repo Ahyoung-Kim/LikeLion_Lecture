@@ -1,0 +1,172 @@
+@font-face { /*웹 폰트 가져오기*/
+  font-family: 'HoengseongHanu';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/HoengseongHanu.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*폰트 지정*/
+  font-family: 'HoengseongHanu';
+}
+
+#error {
+  /*가로폭이 800px 이상일 땐 안 보이게*/
+  display: none;
+  /*박스 맘대로 적절히 꾸미기~*/
+  border: 5px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/*가로폭이 800px 이하이면 main 박스는 가리고 
+error 박스 보이게 하기*/
+@media (max-width: 800px){
+  main {
+    display: none;
+  }
+  #error {
+    display: block;
+  }
+}
+
+header {
+  height: 40px;
+  background-color: #333;
+}
+
+main {
+  height: 600px;
+  width: 750px;
+  /*박스 가운데 정렬*/
+  margin-left: auto;
+  margin-right: auto;
+  /*박스 그림자 넣기*/
+  box-shadow: 10px 10px 20px gray;
+}
+
+#top {
+  /*글씨 보기좋게 정렬*/
+  line-height: 35px;
+  margin-bottom: 25px;
+  background-color: #ffa500;
+  /*텍스트 꾸미기, 가운데 정렬*/
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  /*박스 모서리 왼쪽아래, 오른쪽아래 둥글게*/
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#container { /*flex container*/
+  height: 410px;
+  background-color: #f8f8f8;
+  /*flex 컨테이너 지정*/
+  display: flex;
+  /*줄넘김 처리*/
+  flex-wrap: wrap;
+  /*메인축을 기준으로 둘레에 균일한 간격
+  메인축은 flex-direction으로 지정(기본값은 row)*/
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+#container section { /*flex item*/
+  width: 30%;
+  height: 45%;
+  background-color: white;
+  /*박스 모서리 둥글게*/
+  border-radius: 7px;
+  /*item 내용(<p>태그 내용) 가운데 정렬하기 위해 flex container 지정*/
+  display: flex;
+  /*item 내용 가운데 정렬*/
+  justify-content: center;
+  align-items: center;
+}
+
+section p {
+  font-weight: bold;
+  text-align: center;
+}
+
+/*배경이미지 넣기*/
+#movie-sec, #dog-sec {
+  background-size: cover;
+  /*폰트 색 흰색으로 해서 잘 보이도록*/
+  color: white;
+  /*부모인 relative는 자식인 absolute가 돌아다닐
+  수 있는 영역을 제한해 줌*/
+  position: relative;
+}
+
+.bg {
+  /*투명도가 50%인 검은색 박스*/
+  background-color: rgba(0, 0, 0, 0.5);
+  /*section과 똑같이 박스 만들기: 크기와 모서리*/
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  /*박스가 다른 요소 위에 겹칠 수 있게 포지셔닝*/
+  /*left, top, right, bottom 값으로 전 화면을 아무런
+  제약 없이 쓸 수 있는 속성*/
+  position: absolute;
+}
+
+#movie-sec {
+  background-image: url('./images/avengers.PNG');
+}
+
+#dog-sec {
+  background-image: url('./images/dog.jpg');
+}
+
+/*이미지 위에 마우스를 올렸을 때 텍스트가 위로 오도록*/
+#movie-sec:hover p, #dog-sec:hover p {
+  z-index: 1;
+}
+
+aside {
+  height: 80px;
+  margin-bottom: 60px;
+  background-color: #f8f8f8;
+  /*float 가진 요소들이 다른 요소와 겹치지 않게*/
+  overflow: hidden;
+}
+
+#team, #hi {
+  /*박스 모서리 둥글게*/
+  border-radius: 5px;
+  text-align: center;
+  /*team과 hi 내용 가운데 정렬하기 위해 flex container 지정*/
+  display: flex;
+  /*내용 가운데 정렬*/
+  justify-content: center;
+  align-items: center;
+}
+
+aside #team {
+  width: 470px;
+  height: 100%;
+  background-color: #ffd400;
+  /*aside 내에서 왼쪽 구석으로 밀어넣기*/
+  float: left;
+}
+
+aside #hi {
+  width: 230px;
+  height: 100%;
+  background-color: #d0b134;
+  /*aside 내에서 오른쪽 구석으로 밀어넣기*/
+  float: right;
+}
+
+footer {
+  height: 200px;
+}

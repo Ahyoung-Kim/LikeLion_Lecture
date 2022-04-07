@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+  font-family: 'Montserrat';
+}
+
+body,
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter; /*light 보다 얇은 글씨*/
+  color: #282828;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 16px;
+  padding-bottom: 5px;
+}
+
+.name-text {
+  font-size: 17px;
+  color: #7c7c7c;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 20px;
+  font-size: 12px;
+  color: #919191;
+}
+
+.mainbox {
+  width: 610px;
+  /*박스 가로 너비*/
+  margin-left: auto;
+  /*박스 중간 정렬*/
+  margin-right: auto;
+  /*박스 중간 정렬*/
+  border: 1px solid #ebebeb;
+  /*박스 테두리: 두께 방식 색깔*/
+  padding: 30px;
+  /*박스 내부 여백*/
+  margin: 30px;
+  /*박스 외부 여백*/
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+  /*박스 그림자*/
+
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+.name-text {
+  font-size: 16px;
+  color: #7c7c7c;
+  font-weight: bold;
+}
+
+.about-me-text {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.title-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  text-align: left;
+  float: left;
+}
+
+.year-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  text-align: right;
+  float: right;
+}
+
+.float-wrap {
+  overflow: hidden;
+}
+
+.desc-text {
+  font-size: 9px;
+}
+
+.desc-subtext {
+  font-size: 9px;
+  color: #282828;
+  padding-left: 16px; /*왼쪽 들여쓰기*/
+}
+
+.title-box{
+  text-align: right;
+}
+
+.sns-img {
+  weight: 12px;
+  height: 12px;
+}
+
+.sns-wrap {
+  text-align: right;
+}
