@@ -38,8 +38,8 @@
 	var isNateLogin = (isMakeLogin == "Y") ? true : false;
 	var myId = "";
 	var iSvcSeq  ='1'; 
-	var iSvcSeqB ='1'; 
-	var iSvcSeqC ='1';
+	var iSvcSeqB ='4'; 
+	var iSvcSeqC ='2';
 	var currentWeatherIndex = [0,11,8]; 
 	var iSvcSeqW = iSvcSeqB;
 	var isCommsbarOpen = ('N' == 'Y') ? true : false;
@@ -56,36 +56,36 @@
 	var hostInfo 	 	= (host.length > 0) ? '//' + host : '';
 	
 	var verContJs		= '202001141024';
-	var verIssue01 		= '202204131601';
-	var verIssue02 		= '202204131601';
-	var verIssue03 		= '202204131601';
-	var verIssue04 		= '202204131601';
-	var verIssue05 		= '202204131601';
-	var verIssue06 		= '202204131601';
-	var verIssue07 		= '202204131601';
+	var verIssue01 		= '202204141801';
+	var verIssue02 		= '202204141801';
+	var verIssue03 		= '202204141801';
+	var verIssue04 		= '202204141801';
+	var verIssue05 		= '202204141801';
+	var verIssue06 		= '202204141801';
+	var verIssue07 		= '202204141801';
 		
-	var verNateTV		= '202204131603';
-	var verIssueKeyword	= '202204131600';
-	var verRanking03	= '202204131602';
+	var verNateTV		= '202204141833';
+	var verIssueKeyword	= '202204141835';
+	var verRanking03	= '202204141837';
 	var verRanking04	= '202103051256';
 	var verRanking05	= '201907240902';
-	var verRanking06	= '202204131603';
-	var verNateQ01		= '202204131558';
+	var verRanking06	= '202204141803';
+	var verNateQ01		= '202204141828';
 	
 	var verCntsU01 		= '202011180210';
 	var verCntsU02 		= '201907240831';
-	var verCntsU03 		= '202204131603';
-	var verGnbRoll		= '202204131601';
-	var verNewsBox 		= '202204131602';
-	var verShopRecomm	= '202204131510';
-	var verNateQ02		= '202204131504';
+	var verCntsU03 		= '202204141803';
+	var verGnbRoll		= '202204141801';
+	var verNewsBox 		= '202204141837';
+	var verShopRecomm	= '202204141810';
+	var verNateQ02		= '202204141804';
 	
-	var verPannChoice	= '202204131603';
-	var verPannToday	= '202204131511';
-	var verPannRanking	= '202204131511';
-	var verPannReply	= '202204131511';
-	var verTodayKeyword = '202204131603';
-	var verKeywordAd	= '202204131517';
+	var verPannChoice	= '202204141823';
+	var verPannToday	= '202204141811';
+	var verPannRanking	= '202204141811';
+	var verPannReply	= '202204141811';
+	var verTodayKeyword = '202204141836';
+	var verKeywordAd	= '202204141817';
 	var verBizSearch 	= '202204121300';		
 	var verPann01 		= '201907240835';
 	var verPann02 		= '201907240835';
@@ -96,7 +96,7 @@
 	var isChangeTab 			= false;
 	var nateAwardsStat			= '';
 	var isViewKeywordRank		= 'N';
-	var verToonNBook			= '202204131600';
+	var verToonNBook			= '202204141835';
 	var isEmergencyToonNBookTab = 'N';
 
 	//]]>
@@ -188,11 +188,11 @@
 		<dl>
 			<dd>
 
-				<a id="onclick_semantic01" href="https://search.daum.net/nate?w=tot&amp;q=%EA%B9%80%ED%83%9C%ED%98%84+%EB%AF%B8%EC%9E%90+%EA%B2%B0%ED%98%BC%ED%95%B4" onmousedown="setNcCode('NSC11|NSC21|NSC31',iSvcSeq-1);">김태현 미자 결혼</a>
-                <a id="onclick_semantic02" href="https://search.daum.net/nate?w=tot&amp;DA=NAD&amp;q=%EC%97%90%EC%96%B4%EC%83%A4%EC%9B%8C%EA%B8%B0" onmousedown="setNcCode('NSC12|NSC22|NSC32',iSvcSeq-1);">에어샤워기</a>
-                <a id="onclick_semantic03" href="https://search.daum.net/nate?w=tot&amp;DA=NAD&amp;q=%EC%95%88%EB%A7%88%EC%9D%98%EC%9E%90%EB%A0%8C%ED%83%88" onmousedown="setNcCode('NSC13|NSC23|NSC33',iSvcSeq-1);">안마의자 렌탈</a>
-                <a id="onclick_semantic04" href="https://search.daum.net/nate?w=tot&amp;q=%EC%B5%9C%EC%A7%80%EB%A7%8C+%EC%B2%AB+%ED%99%88%EB%9F%B0+%EA%B8%B0%EB%A1%9D%ED%95%B4" onmousedown="setNcCode('NSC14|NSC24|NSC34',iSvcSeq-1);">최지만 홈런</a>
-                <a id="onclick_semantic05" href="https://search.daum.net/nate?w=tot&amp;q=%EA%B3%BD%EC%83%81%EB%8F%84+%ED%98%90%EC%9D%98+%EB%B6%80%EC%9D%B8%ED%95%B4" onmousedown="setNcCode('NSC15|NSC25|NSC35',iSvcSeq-1);">곽상도 혐의 부인</a>
+				<a id="onclick_semantic01" href="https://search.daum.net/nate?w=tot&amp;q=%EC%9D%B4%EC%A4%80%ED%98%B8+%EC%88%98%EC%83%81%ED%95%B4" onmousedown="setNcCode('NSC11|NSC21|NSC31',iSvcSeq-1);">이준호 한국PD대상</a>
+                <a id="onclick_semantic02" href="https://search.daum.net/nate?w=tot&amp;DA=NAD&amp;q=%EB%B3%B4%EC%9C%A1%EA%B5%90%EC%82%AC2%EA%B8%89" onmousedown="setNcCode('NSC12|NSC22|NSC32',iSvcSeq-1);">보육교사2급</a>
+                <a id="onclick_semantic03" href="https://search.daum.net/nate?w=tot&amp;DA=NAD&amp;q=%EC%96%91%EC%9C%A1%EA%B6%8C%EC%86%8C%EC%86%A1" onmousedown="setNcCode('NSC13|NSC23|NSC33',iSvcSeq-1);">양육권소송</a>
+                <a id="onclick_semantic04" href="https://search.daum.net/nate?w=tot&amp;q=%EC%B5%9C%EC%A7%80%EB%A7%8C+%ED%99%88%EB%9F%B0+%EA%B8%B0%EB%A1%9D%ED%95%B4" onmousedown="setNcCode('NSC14|NSC24|NSC34',iSvcSeq-1);">최지만 홈런</a>
+                <a id="onclick_semantic05" href="https://search.daum.net/nate?w=tot&amp;q=%EC%9C%A0%ED%80%B4%EC%A6%88+PD+%ED%87%B4%EC%82%AC%ED%95%B4" onmousedown="setNcCode('NSC15|NSC25|NSC35',iSvcSeq-1);">유퀴즈 PD 이적설</a>
 			</dd>
 		</dl>
 	</div>
@@ -278,7 +278,7 @@
 	
 		<div class="todayBox" id='divTodayKeywordArea' onmouseover="todayKeyword.stopTodayKeyword()" onmouseout="todayKeyword.startTodayKeyword()">
 			<div id='divTodayKeyword'>
-				<a href="https://news.nate.com/?keyword_dtm=2022-04-13 15:51:38&keyword_sq=164681" class="keyword" title="정부 &#034;코로나 집단면역 어려워&#034;" onmousedown="nc('TOD51');">정부 &#034;코로나 집단면역 어려워&#034;</a>
+				<a href="https://news.nate.com/?keyword_dtm=2022-04-14 17:54:25&keyword_sq=179679" class="keyword" title="서울 아파트값 2주째 보합" onmousedown="nc('TOD54');">서울 아파트값 2주째 보합</a>
 			</div>
 			<div class="kwrd_slide">
 				<div class="today_tit">
@@ -388,21 +388,21 @@
 				
 					<li id="newsImg0">
 						
-						<a href="//ps.news.nate.com/photo/slideShow?cid=925222" target="_self" onclick="setTabInfo();ndrclick('MEF01', 'NH_01_01_01-20220413151248');">
-							<em class="icon slide">슬라이드</em>
+						<a href="//news.nate.com/view/20220414n31127" target="_self" onclick="setTabInfo();ndrclick('MEF01', 'NH_01_01_01-20220414174445');">
 							
-							<span class="thumb_img"><img src="//news.nateimg.co.kr/etc/cms/2022/04/13/1649830331_981.png" alt="" width="168" /></span>
-							<span class="txt">2차 내각 인선 발표하는 尹당선인</span>
+							
+							<span class="thumb_img"><img src="//news.nateimg.co.kr/etc/cms/2022/04/14/1649925803_971.jpg" alt="" width="168" /></span>
+							<span class="txt">호주 워홀 간 20대 4명 한날 숨졌다…퇴근길 교통사고 비극</span>
 						</a>
 					</li>
 				
 					<li id="newsImg1">
 						
-						<a href="//ps.news.nate.com/photo/slideShow?cid=925226&mid=e0102" target="_self" onclick="setTabInfo();ndrclick('MEF02', 'NH_03_01_02-20220413154512');">
-							<em class="icon slide">슬라이드</em>
+						<a href="//tv.nate.com/clip/4396985" target="_self" onclick="setTabInfo();ndrclick('MEF02', 'NH_03_01_01-20220414160839');">
 							
-							<span class="thumb_img"><img src="//news.nateimg.co.kr/etc/cms/2022/04/13/1649832254_391.jpg" alt="" width="168" /></span>
-							<span class="txt">이게 바로 한예슬이지…궁에서 이래도 돼? 상체 훤히 드러난 외출</span>
+							<em class="icon play">동영상</em>
+							<span class="thumb_img"><img src="//news.nateimg.co.kr/etc/cms/2022/04/14/1649919170_914.jpg" alt="" width="168" /></span>
+							<span class="txt">화나면 자해하는 5살 딸…오은영 &quot;금쪽이는 부모&quot; 충격 진단</span>
 						</a>
 					</li>
 				
@@ -410,38 +410,38 @@
 			</ul>
 			<ul class="type_text" id="newsTxt_ul_1">
 				
-					<li id="newsTxt_li_0"><strong><a href="//news.nate.com/hissue/clstList?mid=n0208&isq=10806&n=924666#cid924666" target="_self" onclick="setTabInfo();ndrclick('MEB23', 'NH_01_02_01-20220413152127');">尹당선인, 법무장관에 한동훈 깜짝 발탁…비서실장 김대기</a></strong></li>
+					<li id="newsTxt_li_0"><strong><a href="//news.nate.com/hissue/clstList?mid=n0208&isq=10806&n=925296#cid925296" target="_self" onclick="setTabInfo();ndrclick('MEB23', 'NH_01_02_01-20220414175505');">'安패싱 논란' &quot;문제 없다&quot;는 尹당선인…안철수, 결별 결단 내릴까</a></strong></li>
 
 				
-					<li id="newsTxt_li_1"><a href="//news.nate.com/section?mid=n0400&n=884916#cid884916" target="_self" onclick="setTabInfo();ndrclick('MEB25', 'NH_01_02_10-20220413155223');">방역수칙 무시한 민노총, 서울 도심 대규모 집회 강행</a></li>
+					<li id="newsTxt_li_1"><a href="//news.nate.com/hissue/clstList?mid=n0208&isq=10806&n=925204#cid925204" target="_self" onclick="setTabInfo();ndrclick('MEB25', 'NH_01_02_06-20220414152605');">40억 아파트 보유 한동훈…거주는 16억 타워팰리스 전세</a></li>
 
 				
-					<li id="newsTxt_li_2"><a href="//news.nate.com/section?mid=n0400&n=923187#cid923187" target="_self" onclick="setTabInfo();ndrclick('MEB27', 'NH_01_02_08-20220413141720');">이은해가 챙긴 남편 국민연금 1300만원 환수 가능</a></li>
+					<li id="newsTxt_li_2"><a href="//news.nate.com/view/20220414n31357" target="_self" onclick="setTabInfo();ndrclick('MEB27', 'NH_01_02_08-20220414175829');">내일 서울 등 중부지방 퇴근길에 비 조금…강원영동 낮에 쌀쌀</a></li>
 
 				
-					<li id="newsTxt_li_3"><a href="//sports.news.nate.com/hissue/groupList?mid=s0406&isq=10325&sisq=10570&n=925124#cid925124" target="_self" onclick="setTabInfo();ndrclick('MEB29', 'NH_02_02_06-20220413151721');">'토트넘 안 가요 1인'+'떠나요 3인'이 만든 기적…16년 만에 UCL 4강</a></li>
+					<li id="newsTxt_li_3"><a href="//sports.news.nate.com/abrsoccer/#cid856773" target="_self" onclick="setTabInfo();ndrclick('MEB29', 'NH_02_02_01-20220414170351');">마라도나 살해당했다…검찰, 의료진 과실치사 혐의로 살인죄 기소</a></li>
 
 				
-					<li id="newsTxt_li_4"><a href="//news.nate.com/view/20220413n21689" target="_self" onclick="setTabInfo();ndrclick('MEC61', 'NH_03_02_01-20220413140155');">오은영, 6세 자녀 사교육비 200만원 '헬리콥터맘'에 일침</a></li>
+					<li id="newsTxt_li_4"><a href="//news.nate.com/view/20220414n32389" target="_self" onclick="setTabInfo();ndrclick('MEC61', 'NH_03_02_02-20220414180736');">박민영·손예진이 살려놨더니…또 부진의 늪 JTBC</a></li>
 
 				
 
 			</ul>
 			<ul class="type_text" id="newsTxt_ul_2">
 				
-					<li id="newsTxt_li_5"><strong><a href="//news.nate.com/hissue/clstList?mid=n0208&isq=10807&n=925025#cid925025" target="_self" onclick="setTabInfo();ndrclick('MEB31', 'NH_01_02_02-20220413155554');">김오수 검찰총장 &quot;대통령에 '검수완박' 관련 면담 요청&quot;</a></strong></li>
+					<li id="newsTxt_li_5"><strong><a href="//news.nate.com/hissue/clstList?mid=n0412&isq=10515&n=818495#cid818495" target="_self" onclick="setTabInfo();ndrclick('MEB31', 'NH_01_02_02-20220414181036');">모임·영업·행사·취식 등 거리두기 대부분 해제…내일 발표</a></strong></li>
 
 				
-					<li id="newsTxt_li_6"><a href="//news.nate.com/section?mid=n0400&n=893309#cid893309" target="_self" onclick="setTabInfo();ndrclick('MEB33', 'NH_01_03_01-20220413155817');">20개월 영아 성폭행·학대살해범 &quot;범행 이유? 모르겠다&quot;</a></li>
+					<li id="newsTxt_li_6"><a href="//news.nate.com/view/20220414n34171" target="_self" onclick="setTabInfo();ndrclick('MEB33', 'NH_01_03_01-20220414181238');">날 설레게 한 '소개팅 앱' 그녀, 사실 그 회사 남자직원입니다</a></li>
 
 				
-					<li id="newsTxt_li_7"><a href="//news.nate.com/view/20220413n27166" target="_self" onclick="setTabInfo();ndrclick('MEB35', 'NH_01_03_01-20220413154645');">尹 55년지기 &quot;조민 입학취소 부당&quot; 글에…김건희 '좋아요'</a></li>
+					<li id="newsTxt_li_7"><a href="//news.nate.com/view/20220414n33169" target="_self" onclick="setTabInfo();ndrclick('MEB35', 'NH_01_03_01-20220414174211');">경찰이 무혐의 처리한 '계곡살인'을 검찰이 혐의 밝혀냈다?</a></li>
 
 				
-					<li id="newsTxt_li_8"><a href="//sports.news.nate.com/basketvolley/#cid670512" target="_self" onclick="setTabInfo();ndrclick('MEB37', 'NH_02_02_06-20220413141425');">'伊 구단과 계약' 케이타, KB손해보험 잔류 의사 밝혔지만…</a></li>
+					<li id="newsTxt_li_8"><a href="//sports.news.nate.com/general/#cid841024" target="_self" onclick="setTabInfo();ndrclick('MEB37', 'NH_02_02_01-20220414122036');">야구선수 출신 조폭, 시내 한복판서 칼부림 당해</a></li>
 
 				
-					<li id="newsTxt_li_9"><a href="//news.nate.com/view/20220413n19973" target="_self" onclick="setTabInfo();ndrclick('MEC63', 'NH_03_02_04-20220413141308');">15kg 감량한 육중완 &quot;'다이어트=성형'이라더니&quot; 분노한 사연</a></li>
+					<li id="newsTxt_li_9"><a href="//news.nate.com/view/20220414n33124" target="_self" onclick="setTabInfo();ndrclick('MEC63', 'NH_03_02_02-20220414182041');">&quot;우리만 마스크&quot; 김애리♥김태우, LA 콘서트 갔다가 소외감</a></li>
 
 				
 			</ul>
@@ -467,31 +467,31 @@
 						
 							
 							<li id="newsImg2">
-								<a href="//sports.news.nate.com/general/photo?page=1&cid=925156&fix=925156" target="_self" onclick="setTabInfo();ndrclick('MEF03', 'NH_02_01_01-20220413115701');">
-									<em class="icon slide">슬라이드</em>
+								<a href="//news.nate.com/view/20220414n32802" target="_self" onclick="setTabInfo();ndrclick('MEF03', 'NH_02_01_01-20220414173232');">
 									
-									<span class="thumb_img"><img src="//news.nateimg.co.kr/etc/cms/2022/04/13/1649810651_266.jpg" width="168" alt="" /></span>
-									<span class="txt">얼굴 흘러내렸던 추성훈, 급노화 극복</span>
+									
+									<span class="thumb_img"><img src="//news.nateimg.co.kr/etc/cms/2022/04/14/1649925077_819.png" width="168" alt="" /></span>
+									<span class="txt">일본 셔틀콕 '얼짱' 오호리 아야, 안세영이 '한수 지도'</span>
 								</a>
 							</li>
 						
 							
 							<li id="newsImg3">
-								<a href="//news.nate.com/view/20220413n20311" target="_self" onclick="setTabInfo();ndrclick('MEF04', 'NH_01_04_01-20220413160235');">
+								<a href="//news.nate.com/view/20220414n32812" target="_self" onclick="setTabInfo();ndrclick('MEF04', 'NH_01_04_01-20220414174105');">
 									
 									
-									<span class="thumb_img"><img src="//news.nateimg.co.kr/etc/cms/2022/04/13/1649833301_723.jpg" width="168" alt="" /></span>
-									<span class="txt">죽음을 부르는 바다의 방파제 '테트라포드'</span>
+									<span class="thumb_img"><img src="//news.nateimg.co.kr/etc/cms/2022/04/14/1649925649_974.jpg" width="168" alt="" /></span>
+									<span class="txt">&quot;퇴근후 눈비 맞으며 배달 알바&quot;…보육원에 치킨 220조각 쏜 男</span>
 								</a>
 							</li>
 						
 							
 							<li id="newsImg4">
-								<a href="//news.nate.com/view/20220413n21442" target="_self" onclick="setTabInfo();ndrclick('MEF05', 'NH_01_04_02-20220413160235');">
+								<a href="//news.nate.com/view/20220414n27484" target="_self" onclick="setTabInfo();ndrclick('MEF05', 'NH_01_04_01-20220414154135');">
 									
 									
-									<span class="thumb_img"><img src="//news.nateimg.co.kr/etc/cms/2022/04/13/1649826804_581.jpg" width="168" alt="" /></span>
-									<span class="txt">쾅쾅 계속 박던 만취운전자, 귀가중인 중학생에 돌진 '참변'</span>
+									<span class="thumb_img"><img src="//news.nateimg.co.kr/etc/cms/2022/04/14/1649918477_277.png" width="168" alt="" /></span>
+									<span class="txt">두문불출 이재명, 이발·염색…조기등판론 속 활동재개 예열?</span>
 								</a>
 							</li>
 						
@@ -514,83 +514,83 @@
 			<ol class="isKeywordList" id="olLiveIssueKeyword">
 				
 					
+						
+							<li>
+								<span class="num_rank">6</span>
+								<a href="javascript:newsBox.clickSearchKeyword('지방선거서 기초의원 11곳');" class="ik" onmousedown="nc('MEH21')">
+									<span class="txt_rank">지방선거서 기초의원 11곳</span>
+									
+										
+										
+										
+											<span class="fc same"><span class="nHide">동일</span></span>
+										
+										
+									
+								</a>
+							</li>
+						
+							<li>
+								<span class="num_rank">7</span>
+								<a href="javascript:newsBox.clickSearchKeyword('HDC현산 처분 효력');" class="ik" onmousedown="nc('MEH22')">
+									<span class="txt_rank">HDC현산 처분 효력</span>
+									
+										
+										
+										
+											<span class="fc same"><span class="nHide">동일</span></span>
+										
+										
+									
+								</a>
+							</li>
+						
+							<li>
+								<span class="num_rank">8</span>
+								<a href="javascript:newsBox.clickSearchKeyword('박수홍');" class="ik" onmousedown="nc('MEH23')">
+									<span class="txt_rank">박수홍</span>
+									
+										
+											<span class="fc up"><span class="nHide">상승</span>2</span>
+										
+										
+										
+										
+									
+								</a>
+							</li>
+						
+							<li>
+								<span class="num_rank">9</span>
+								<a href="javascript:newsBox.clickSearchKeyword('러 함대 미사일로');" class="ik" onmousedown="nc('MEH24')">
+									<span class="txt_rank">러 함대 미사일로</span>
+									
+										
+										
+											<span class="fc down"><span class="nHide">하락</span>1</span>
+										
+										
+										
+									
+								</a>
+							</li>
+						
+							<li>
+								<span class="num_rank">10</span>
+								<a href="javascript:newsBox.clickSearchKeyword('싸이 9집 타이틀은');" class="ik" onmousedown="nc('MEH25')">
+									<span class="txt_rank">싸이 9집 타이틀은</span>
+									
+										
+										
+											<span class="fc down"><span class="nHide">하락</span>1</span>
+										
+										
+										
+									
+								</a>
+							</li>
+						
 					
-						
-							<li>
-								<span class="num_rank">1</span>
-								<a href="javascript:newsBox.clickSearchKeyword('법무부 장관에 한동훈');" class="ik" onmousedown="nc('MEH01')">
-									<span class="txt_rank">법무부 장관에 한동훈</span>
-									
-										
-										
-										
-											<span class="fc same"><span class="nHide">동일</span></span>
-										
-										
-									
-								</a>
-							</li>
-						
-							<li>
-								<span class="num_rank">2</span>
-								<a href="javascript:newsBox.clickSearchKeyword('박진');" class="ik" onmousedown="nc('MEH02')">
-									<span class="txt_rank">박진</span>
-									
-										
-										
-										
-											<span class="fc same"><span class="nHide">동일</span></span>
-										
-										
-									
-								</a>
-							</li>
-						
-							<li>
-								<span class="num_rank">3</span>
-								<a href="javascript:newsBox.clickSearchKeyword('집단면역 어려워 소규모 유행');" class="ik" onmousedown="nc('MEH03')">
-									<span class="txt_rank">집단면역 어려워 소규모 유행</span>
-									
-										
-										
-										
-											<span class="fc same"><span class="nHide">동일</span></span>
-										
-										
-									
-								</a>
-							</li>
-						
-							<li>
-								<span class="num_rank">4</span>
-								<a href="javascript:newsBox.clickSearchKeyword('민주노총 집회');" class="ik" onmousedown="nc('MEH04')">
-									<span class="txt_rank">민주노총 집회</span>
-									
-										
-											<span class="fc up"><span class="nHide">상승</span>1</span>
-										
-										
-										
-										
-									
-								</a>
-							</li>
-						
-							<li>
-								<span class="num_rank">5</span>
-								<a href="javascript:newsBox.clickSearchKeyword('군검사 도베르만');" class="ik" onmousedown="nc('MEH05')">
-									<span class="txt_rank">군검사 도베르만</span>
-									
-										
-										
-										
-										
-											<span class="fc new"><span class="nHide">new</span></span>
-										
-									
-								</a>
-							</li>
-						
 					
 					
 				
@@ -607,7 +607,7 @@
 				
 					<h3>
 						<span class="nHide">오늘 &amp; 기타정보</span>
-						<strong class="tdate">04.13</strong> 수요일
+						<strong class="tdate">04.14</strong> 목요일
 					</h3>
 
 					<h4 class="nHide">날씨</h4>
@@ -617,11 +617,11 @@
 								<img src="//main2.nateimg.co.kr/img/v7/weather3/52x52_am_04.png" width="42" height="42" alt="흐림"/>
 							</div>
 							<div class="temperature">
-								<span class="tempdata">12</span>
+								<span class="tempdata">11</span>
 							</div>
 							<div class="rbox">
 								<span class="degree">℃</span>
-								<span class="local">서울</span>
+								<span class="local">부산</span>
 							</div>
 						</div>
 					</a>
@@ -631,8 +631,8 @@
 								
 								
 								
-								-14℃ 낮음
 								
+								-1 
 							
 						</span></p>
 						
@@ -666,7 +666,7 @@
 	
 		<div id="breakingNews" class="overlay_break" style="display:none;"><dl>
 	<dt>코로나19 확진 현황</dt>
-	<dd><a href="//news.nate.com/view/20220413n09775" onclick="setTabInfo();ndrclick('MED43', '');">[코로나19] 신규확진 19만5천419명…총 1583만644명 (4.13기준)</a></dd>
+	<dd><a href="//news.nate.com/view/20220414n09297" onclick="setTabInfo();ndrclick('MED43', '');">신규확진 14만8천443명…총 1597만9천061명 (4.14기준)</a></dd>
 </dl>
 <button type="button" value="속보 레이어 닫기" title="속보 레이어 닫기" class="close" onclick="ndrclick('MED44');newsBox.closeSokboLayer();">속보 레이어 닫기</button></div>
 	
@@ -721,51 +721,84 @@
 			
 				<li>
 					<span class="num_rank top_rank">1</span>
-					<a href="https://pann.nate.com/talk/365878991" class="link_rank" onmousedown="nc('PCN11');">부인, 며느리가 음식안하고 사먹는거 어떻게 생각하세요? (장문)</a>
+					<a href="https://pann.nate.com/talk/365883212" class="link_rank" onmousedown="nc('PCN11');">유채꽃밭에 버려져 있던 강아지... (사진놀람주의)</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
-		                    (265)
+		                    (753)
 		                </em>
 	                
 				</li>			
 			
 				<li>
 					<span class="num_rank top_rank">2</span>
-					<a href="https://pann.nate.com/talk/365875720" class="link_rank" onmousedown="nc('PCN12');">+)산범 임신 공개 유튜브 댓글..</a>
+					<a href="https://pann.nate.com/talk/365886068" class="link_rank" onmousedown="nc('PCN12');">지금 난리난 팬픽보는 남자 아나운서</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
-		                    (193)
+		                    (102)
 		                </em>
 	                
 				</li>			
 			
 				<li>
 					<span class="num_rank top_rank">3</span>
-					<a href="https://pann.nate.com/talk/365871211" class="link_rank" onmousedown="nc('PCN13');">방탄 망상짤 푼다 다 들어와</a>
+					<a href="https://pann.nate.com/talk/365888152" class="link_rank" onmousedown="nc('PCN13');">트랜스젠더 된 지 한 달 됐다고 함</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
-		                    (118)
+		                    (358)
 		                </em>
 	                
 				</li>			
 			
 				<li>
 					<span class="num_rank">4</span>
-					<a href="https://pann.nate.com/talk/365871224" class="link_rank" onmousedown="nc('PCN14');">스토리에 판밍아웃함</a>
+					<a href="https://pann.nate.com/talk/365885052" class="link_rank" onmousedown="nc('PCN14');">방탄 할머니 첫사랑 과몰입 짤 푼다</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
-		                    (184)
+		                    (163)
 		                </em>
 	                
 				</li>			
 			
 				<li>
 					<span class="num_rank">5</span>
-					<a href="https://pann.nate.com/talk/365869515" class="link_rank" onmousedown="nc('PCN15');">남자친구가 알고보니 애아빠였어요</a>
+					<a href="https://pann.nate.com/talk/365881805" class="link_rank" onmousedown="nc('PCN15');">르세라핌 김가람 뉴짤떴는데</a>
+					
+		                <em class="emph">
+		                    <span class="nHide">댓글</span>
+		                    (179)
+		                </em>
+	                
+				</li>			
+			
+				<li>
+					<span class="num_rank">6</span>
+					<a href="https://pann.nate.com/talk/365888814" class="link_rank" onmousedown="nc('PCN16');">엔시티 재현 버블 ㅈㄴ성의없어</a>
+					
+		                <em class="emph">
+		                    <span class="nHide">댓글</span>
+		                    (252)
+		                </em>
+	                
+				</li>			
+			
+				<li>
+					<span class="num_rank">7</span>
+					<a href="https://pann.nate.com/talk/365881719" class="link_rank" onmousedown="nc('PCN17');">고소먹더라도 할 말은 해야겠음…</a>
+					
+		                <em class="emph">
+		                    <span class="nHide">댓글</span>
+		                    (521)
+		                </em>
+	                
+				</li>			
+			
+				<li>
+					<span class="num_rank">8</span>
+					<a href="https://pann.nate.com/talk/365886438" class="link_rank" onmousedown="nc('PCN18');">판 진짜 여적여 ㅈㄴ 심한거같음</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
@@ -775,56 +808,23 @@
 				</li>			
 			
 				<li>
-					<span class="num_rank">6</span>
-					<a href="https://pann.nate.com/talk/365878013" class="link_rank" onmousedown="nc('PCN16');">남친 누나의 무개념행동 봐주세요</a>
-					
-		                <em class="emph">
-		                    <span class="nHide">댓글</span>
-		                    (522)
-		                </em>
-	                
-				</li>			
-			
-				<li>
-					<span class="num_rank">7</span>
-					<a href="https://pann.nate.com/talk/365875542" class="link_rank" onmousedown="nc('PCN17');">산범 유튜브 댓글 뭐냐…</a>
-					
-		                <em class="emph">
-		                    <span class="nHide">댓글</span>
-		                    (351)
-		                </em>
-	                
-				</li>			
-			
-				<li>
-					<span class="num_rank">8</span>
-					<a href="https://pann.nate.com/talk/365871043" class="link_rank" onmousedown="nc('PCN18');">찐따 판녀의 삶 ㅈㄴ 암울하겠음...</a>
-					
-		                <em class="emph">
-		                    <span class="nHide">댓글</span>
-		                    (138)
-		                </em>
-	                
-				</li>			
-			
-				<li>
 					<span class="num_rank">9</span>
-					<a href="https://pann.nate.com/talk/365878486" class="link_rank" onmousedown="nc('PCN19');">피부과에서 발생하는 평범하지 않은 상황</a>
+					<a href="https://pann.nate.com/talk/365883561" class="link_rank" onmousedown="nc('PCN19');">아이들 미연 남윤수랑 사귀나?</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
-		                    (97)
+		                    (254)
 		                </em>
 	                
 				</li>			
 			
 				<li>
 					<span class="num_rank">10</span>
-					<a href="https://pann.nate.com/talk/365878198" class="link_rank" onmousedown="nc('PCN20');">시어머니가 친정 못가게 해서 아빠를 불렀어요</a>
+					<a href="https://pann.nate.com/talk/365890538" class="link_rank" onmousedown="nc('PCN20');">TMI읽는거 좋아하는편</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
-		                    (583)
+		                    (92)
 		                </em>
 	                
 				</li>			
@@ -833,57 +833,47 @@
 		<ol class="list_rank list_today_talk"  id="pannList2">
 			
 				<li>
-					<a href="https://pann.nate.com/talk/365860473" class="link_rank" onmousedown="nc('PCN21');">만 원의 행복, 기분 좋은 하루였어요</a>
+					<a href="https://pann.nate.com/talk/365871886" class="link_rank" onmousedown="nc('PCN21');">얘들아, 나 칭찬 좀 해줘!</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
-		                    (16)
+		                    (15)
 		                </em>	
 		              				
 				</li>			
 			
 				<li>
-					<a href="https://pann.nate.com/talk/365863104" class="link_rank" onmousedown="nc('PCN22');">싸울 때마다 매번 머리가 아프다며 상황을 회피하는 남친</a>
+					<a href="https://pann.nate.com/talk/365890409" class="link_rank" onmousedown="nc('PCN22');">결혼식 때문에 예랑과 싸웠는데 이걸 꼭 해야 하나요?</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
-		                    (25)
+		                    (56)
 		                </em>	
 		              				
 				</li>			
 			
 				<li>
-					<a href="https://pann.nate.com/talk/365868974" class="link_rank" onmousedown="nc('PCN23');">이게 다이어트 강박 및 식이장애 초기 증상인 건가요?</a>
+					<a href="https://pann.nate.com/talk/365883033" class="link_rank" onmousedown="nc('PCN23');">하루 섭취하는 칼로리가 너무 적은 건지 한번 봐주세요</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
-		                    (6)
+		                    (11)
 		                </em>	
 		              				
 				</li>			
 			
 				<li>
-					<a href="https://pann.nate.com/talk/365866665" class="link_rank" onmousedown="nc('PCN24');">돈보다 삶과 행복이 우선이라 생각하는 중고 신입 이직 고민</a>
+					<a href="https://pann.nate.com/talk/365885158" class="link_rank" onmousedown="nc('PCN24');">결혼 후 임신한 지금까지 업무를 제대로 안 하는 직장 동료</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
-		                    (8)
+		                    (23)
 		                </em>	
 		              				
 				</li>			
 			
 				<li>
-					<a href="https://pann.nate.com/talk/365867803" class="link_rank" onmousedown="nc('PCN25');">사내연애 중인 직장 동료가 너무 꼴 보기 싫어 죽겠어</a>
-					
-		                <em class="emph">
-		                    <span class="nHide">댓글</span>
-		                    (36)
-		                </em>	
-		              				
-				</li>			
-			
-				<li>
-					<a href="https://pann.nate.com/talk/365867198" class="link_rank" onmousedown="nc('PCN26');">커피 한 잔 마실 친구가 없을 정도로 인복이 안 좋은 나</a>
+					<a href="https://pann.nate.com/talk/365878843" class="link_rank" onmousedown="nc('PCN25');">옷 살 때마다 실패하는 나, 직장인분들 옷 어디서 사세요?</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
@@ -893,41 +883,51 @@
 				</li>			
 			
 				<li>
-					<a href="https://pann.nate.com/talk/365866758" class="link_rank" onmousedown="nc('PCN27');">둘째 낳은 걸 후회하시는 분들 계세요? 이유가 뭔가요?</a>
+					<a href="https://pann.nate.com/talk/365878857" class="link_rank" onmousedown="nc('PCN26');">털털한 여자 친구의 이성친구 문제 관련 조언 부탁드립니다</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
-		                    (26)
+		                    (19)
 		                </em>	
 		              				
 				</li>			
 			
 				<li>
-					<a href="https://pann.nate.com/talk/365871380" class="link_rank" onmousedown="nc('PCN28');">내게만 한없이 예민하고 하대하는 직장 선배의 은근한 괴롭힘</a>
+					<a href="https://pann.nate.com/talk/365879435" class="link_rank" onmousedown="nc('PCN27');">진짜 궁금해서 그러는데 코 마스크는 왜 하는 거야?</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
-		                    (4)
+		                    (5)
 		                </em>	
 		              				
 				</li>			
 			
 				<li>
-					<a href="https://pann.nate.com/talk/365867176" class="link_rank" onmousedown="nc('PCN29');">가족과 연을 끊고 살고 싶은데 조언 부탁드립니다</a>
+					<a href="https://pann.nate.com/talk/365874766" class="link_rank" onmousedown="nc('PCN28');">남자는 후폭풍 여자는 선폭풍이라던데 왜 이리 힘든 건지...</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
-		                    (7)
+		                    (10)
 		                </em>	
 		              				
 				</li>			
 			
 				<li>
-					<a href="https://pann.nate.com/talk/365864503" class="link_rank" onmousedown="nc('PCN30');">결혼 전에 원래 이렇게 많이 싸우는 게 맞나요?</a>
+					<a href="https://pann.nate.com/talk/365875416" class="link_rank" onmousedown="nc('PCN29');">불편한 선생님의 행동들, 내가 너무 예민한 건가?</a>
 					
 		                <em class="emph">
 		                    <span class="nHide">댓글</span>
-		                    (24)
+		                    (11)
+		                </em>	
+		              				
+				</li>			
+			
+				<li>
+					<a href="https://pann.nate.com/talk/365871551" class="link_rank" onmousedown="nc('PCN30');">콜센터 직원에서 사회복지사로 이직을 고민 중입니다</a>
+					
+		                <em class="emph">
+		                    <span class="nHide">댓글</span>
+		                    (17)
 		                </em>	
 		              				
 				</li>			
@@ -946,20 +946,170 @@
 		<div class="keyword_list">
 			<div class="list_top">
 				<h4 class="menu08"><a href="javascript:issueContents.clickIssueUpNateTv(0)" onmousedown="nc('CTG08')">TV</a></h4>
-				<h4 class="menu01 on"><a href="javascript:issueContents.clickIssueUpCategory(1, 0)" onmousedown="nc('CTG01');">여행/맛집</a></h4>
+				<h4 class="menu01"><a href="javascript:issueContents.clickIssueUpCategory(1, 0)" onmousedown="nc('CTG01');">여행/맛집</a></h4>
 				<h4 class="menu02"><a href="javascript:issueContents.clickIssueUpCategory(2, 0)" onmousedown="nc('CTG02');">뷰티</a></h4>
 				<h4 class="menu03"><a href="javascript:issueContents.clickIssueUpCategory(3, 0)" onmousedown="nc('CTG03');">푸드</a></h4>
-				<h4 class="menu04"><a href="javascript:issueContents.clickIssueUpToonNBook()" onmousedown="nc('CTG09');">만화/웹툰</a></h4>
+				<h4 class="menu04 on"><a href="javascript:issueContents.clickIssueUpToonNBook()" onmousedown="nc('CTG09');">만화/웹툰</a></h4>
 				<h4 class="menu05"><a href="javascript:issueContents.clickIssueUpCategory(5, 0)" onmousedown="nc('CTG05');">패션</a></h4>
 				<h4 class="menu06"><a href="javascript:issueContents.clickIssueUpCategory(6, 0)" onmousedown="nc('CTG06');">라이프</a></h4>
 				<h4 class="menu07" id="issueTabShopping"><a href="javascript:issueContents.clickIssueUpShopping()" onmousedown="nc('CTG07');">쇼핑</a></h4>
 			</div>
-		<div class="list_btm" id="divIssueKeyword">
-			<h5 class="on"><a href="javascript:issueContents.clickIssueUpCategory(1, 0)" onmousedown="nc('CCA01');">체인점 탐방</a></h5><h5><a href="javascript:issueContents.clickIssueUpCategory(1, 1)" onmousedown="nc('CCA02');">혼밥 가능</a></h5><h5><a href="javascript:issueContents.clickIssueUpCategory(1, 2)" onmousedown="nc('CCA03');">이국적 분위기</a></h5><h5><a href="javascript:issueContents.clickIssueUpCategory(1, 3)" onmousedown="nc('CCA04');">예약 불가</a></h5><h5><a href="javascript:issueContents.clickIssueUpCategory(1, 4)" onmousedown="nc('CCA05');">한정식</a></h5><h5><a href="javascript:issueContents.clickIssueUpCategory(1, 5)" onmousedown="nc('CCA06');">맛집 뷰 맛집</a></h5><h5><a href="javascript:issueContents.clickIssueUpCategory(1, 6)" onmousedown="nc('CCA07');">가자! 제주도</a></h5></div>
+		<div class="list_tb" id="divIssueKeyword">
+				<h5 class="on"><span class="tbtit">웹툰</span><a href="javascript:issueContents.clickIssueUpToonNBook(0);" onmousedown="nc('CCA57');">파격 무료</a></h5>
+				<h5><span class="tbtit">만화</span><a href="javascript:issueContents.clickIssueUpToonNBook(1);" onmousedown="nc('CCA58');">강력추천 최강액션</a></h5>
+				<h5><span class="tbtit">웹툰</span><a href="javascript:issueContents.clickIssueUpToonNBook(2);" onmousedown="nc('CCA59');">오늘의 신작</a></h5>
+				<h5><span class="tbtit">만화</span><a href="javascript:issueContents.clickIssueUpToonNBook(3);" onmousedown="nc('CCA60');">달달한 로맨스</a></h5>
+			</div>
 		</div>
 	</div>
 	<div id="divIssueUpContents" class="content">
-<ul><li><a href="javascript:;" onclick="issueContents.clickDetailInfo('1', '0', '0');" onmousedown="nc5('CAA01','50650','65','1');nc2('CAA01');"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649662378008.jpg" width="169" height="126" alt="" /></span><span class="title"><strong>재판매가 간절한</strong><br /><strong>'별다방' 메뉴 모음</strong></span></a><cite>여행/맛집 <em>COSMO</em></cite></li><li><a href="javascript:;" onclick="issueContents.clickDetailInfo('1', '0', '1');" onmousedown="nc5('CAA02','50650','65','2');nc2('CAA01');"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649661540631.jpg" width="169" height="126" alt="" /></span><span class="title">홍콩인 것 같은<br />착각이 들 정도?</span></a><cite>여행/맛집 <em>추천콘텐츠</em></cite></li><li class="type_wide"><a href="javascript:;" onclick="issueContents.clickDetailInfo('1', '0', '2');" onmousedown="nc5('CAA03','50650','65','3');nc2('CAA01');" ><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649661574699.jpg" width="356" height="126" alt="" /></span><span class="title"><strong>참기름 향으로 식욕 자극하는</strong><br /><strong>명물 꼬막 비빔밥 시식기</strong></span></a><cite>여행/맛집 <em>추천콘텐츠</em></cite></li><li><a href="javascript:;" onclick="issueContents.clickDetailInfo('1', '0', '3');" onmousedown="nc5('CAA04','50650','65','4');nc2('CAA01');"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649729678181.jpg" width="169" height="126" alt="" /></span><span class="title"><strong>소스 가득 올려도</strong><br /><strong>식감이 바삭바삭!</strong></span></a><cite>여행/맛집 <em>추천콘텐츠</em></cite></li><li><a href="javascript:;" onclick="issueContents.clickDetailInfo('1', '0', '4');" onmousedown="nc5('CAA05','50650','65','5');nc2('CAA01');"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649731244754.jpg" width="169" height="126" alt="" /></span><span class="title"><strong>부담 없는 전 메뉴</strong><br /><strong>균일가 초밥 맛집</strong></span></a><cite>여행/맛집 <em>추천콘텐츠</em></cite></li><li class="type_text"><a href="javascript:;" onclick="issueContents.clickDetailInfo('1', '0', '5');" onmousedown="nc5('CAA06','50650','65','6');nc2('CAA01');"><span class="title">아들도 사로잡은<br />추억의 레스토랑<br /></span><span class="content">조금만 시킨 게<br />아쉬울 만큼 맛난<br />립 스테이크</span></a><cite>여행/맛집 <em>추천콘텐츠</em></cite></li><li><a href="javascript:;" onclick="issueContents.clickDetailInfo('1', '0', '6');" onmousedown="nc5('CAA07','50650','65','7');nc2('CAA01');"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649665210637.jpg" width="169" height="126" alt="" /></span><span class="title">진정한 안동 국수<br />느낄 수 있는 곳</span></a><cite>여행/맛집 <em>추천콘텐츠</em></cite></li><li class="type_text"><a href="javascript:;" onclick="issueContents.clickDetailInfo('1', '0', '7');" onmousedown="nc5('CAA08','50650','65','8');nc2('CAA01');"><span class="title">통통하고 쫀득한<br />무항생제 장어<br /></span><span class="content">노릇노릇하게 구워<br />생강과 곁들여<br />싸 먹으면 천국!</span></a><cite>여행/맛집 <em>추천콘텐츠</em></cite></li><li><a href="javascript:;" onclick="issueContents.clickDetailInfo('1', '0', '8');" onmousedown="nc5('CAA09','50650','65','9');nc2('CAA01');"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649661621401.jpg" width="169" height="126" alt="" /></span><span class="title">느끼함을 잡아 준<br />은근히 매콤한 맛</span></a><cite>여행/맛집 <em>추천콘텐츠</em></cite></li><li><a href="javascript:;" onclick="issueContents.clickDetailInfo('1', '0', '9');" onmousedown="nc5('CAA10','50650','65','10');nc2('CAA01');"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649661644995.jpg" width="169" height="126" alt="" /></span><span class="title"><strong>진심 어린 최고의</strong><br /><strong>소주 안주 발견?</strong></span></a><cite>여행/맛집 <em>추천콘텐츠</em></cite></li><li><a href="javascript:;" onclick="issueContents.clickDetailInfo('1', '0', '10');" onmousedown="nc5('CAA11','50650','65','11');nc2('CAA01');"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649661553373.jpg" width="169" height="126" alt="" /></span><span class="title">한 끼로도 딱 좋게<br />속 편한 런치 세트</span></a><cite>여행/맛집 <em>추천콘텐츠</em></cite></li></ul></div>
+<ul>
+		<li>
+				<a href="https://toonnbook.nate.com/detail/H042069969" onmousedown="nc('CBW01');">
+					<span class="thumb">
+						<img src="https://img-books.onestore.co.kr/thumbnails/nate/169_126_20_90/data8/SMILE_DATA8/IMG/PWEBTOONS/202202/18/0036378356/01_0036378356_1405.jpg" />
+					</span>
+					<span class="title">
+						<strong class="comictit">엇갈린 하룻밤</strong>
+						<span class="author"> Yoolook Culture Media</span>
+					</span>
+				</a>
+				<cite>툰앤북 <em>웹툰</em></cite>
+			</li>
+		<li>
+				<a href="https://toonnbook.nate.com/detail/H041821510" onmousedown="nc('CBW02');">
+					<span class="thumb">
+						<img src="https://img-books.onestore.co.kr/thumbnails/nate/169_126_20_90/data8/SMILE_DATA8/IMG/PWEBTOONS/202203/21/0036230011/01_0036230011_1456.jpg" />
+					</span>
+					<span class="title">
+						<strong class="comictit">불순한 동거동락</strong>
+						<span class="author">황한영,이룸</span>
+					</span>
+				</a>
+				<cite>툰앤북 <em>웹툰</em></cite>
+			</li>
+		<li>
+				<a href="https://toonnbook.nate.com/detail/H035032306" onmousedown="nc('CBW03');">
+					<span class="thumb">
+						<img src="https://img-books.onestore.co.kr/thumbnails/nate/169_126_20_90/data8/SMILE_DATA8/IMG/PWEBTOONS/202203/09/0031290865/01_0031290865_1526.jpg" />
+					</span>
+					<span class="title">
+						<strong class="comictit">요신기</strong>
+						<span class="author">아이리더</span>
+					</span>
+				</a>
+				<cite>툰앤북 <em>웹툰</em></cite>
+			</li>
+		<li>
+				<a href="https://toonnbook.nate.com/detail/H037884814" onmousedown="nc('CBW04');">
+					<span class="thumb">
+						<img src="https://img-books.onestore.co.kr/thumbnails/nate/169_126_20_90/data10/SMILE_DATA10/IMG/PWEBTOONS/202111/23/0033484218/01_0033484218_1032.jpg" />
+					</span>
+					<span class="title">
+						<strong class="comictit">황자님 거기 있어줄래요</strong>
+						<span class="author">동만당</span>
+					</span>
+				</a>
+				<cite>툰앤북 <em>웹툰</em></cite>
+			</li>
+		<li>
+				<a href="https://toonnbook.nate.com/detail/H041974133" onmousedown="nc('CBW05');">
+					<span class="thumb">
+						<img src="https://img-books.onestore.co.kr/thumbnails/nate/169_126_20_90/data8/SMILE_DATA8/IMG/PWEBTOONS/202202/01/0036323958/01_0036323958_1711.jpg" />
+					</span>
+					<span class="title">
+						<strong class="comictit">강신전기</strong>
+						<span class="author">증기 스튜디오x텐센트동만</span>
+					</span>
+				</a>
+				<cite>툰앤북 <em>웹툰</em></cite>
+			</li>
+		<li>
+				<a href="https://toonnbook.nate.com/detail/H039243258" onmousedown="nc('CBW06');">
+					<span class="thumb">
+						<img src="https://img-books.onestore.co.kr/thumbnails/nate/169_126_20_90/data11/SMILE_DATA11/IMG/PWEBTOONS/202005/15/0034628391/01_0034628391_2131.jpg" />
+					</span>
+					<span class="title">
+						<strong class="comictit">남주를 공략하는 방법</strong>
+						<span class="author">희열탁마</span>
+					</span>
+				</a>
+				<cite>툰앤북 <em>웹툰</em></cite>
+			</li>
+		<li>
+				<a href="https://toonnbook.nate.com/detail/H037614941" onmousedown="nc('CBW07');">
+					<span class="thumb">
+						<img src="https://img-books.onestore.co.kr/thumbnails/nate/169_126_20_90/data11/SMILE_DATA11/IMG/PWEBTOONS/202007/07/0033249942/01_0033249942_1056.jpg" />
+					</span>
+					<span class="title">
+						<strong class="comictit">한 지붕 밑의 그 녀석</strong>
+						<span class="author">Akiko Naoe</span>
+					</span>
+				</a>
+				<cite>툰앤북 <em>웹툰</em></cite>
+			</li>
+		<li>
+				<a href="https://toonnbook.nate.com/detail/H041609686" onmousedown="nc('CBW08');">
+					<span class="thumb">
+						<img src="https://img-books.onestore.co.kr/thumbnails/nate/169_126_20_90/data10/SMILE_DATA10/IMG/PWEBTOONS/202111/16/0036102709/01_0036102709_1621.jpg" />
+					</span>
+					<span class="title">
+						<strong class="comictit">키스로 시작하는 마녀 전쟁</strong>
+						<span class="author">Rie </span>
+					</span>
+				</a>
+				<cite>툰앤북 <em>웹툰</em></cite>
+			</li>
+		<li>
+				<a href="https://toonnbook.nate.com/detail/H039296733" onmousedown="nc('CBW09');">
+					<span class="thumb">
+						<img src="https://img-books.onestore.co.kr/thumbnails/nate/169_126_20_90/data11/SMILE_DATA11/IMG/PWEBTOONS/202102/17/0034663836/01_0034663836_1823.jpg" />
+					</span>
+					<span class="title">
+						<strong class="comictit">신령님의 신부</strong>
+						<span class="author">Mitsuko Mouri</span>
+					</span>
+				</a>
+				<cite>툰앤북 <em>웹툰</em></cite>
+			</li>
+		<li>
+				<a href="https://toonnbook.nate.com/detail/H031367647" onmousedown="nc('CBW10');">
+					<span class="thumb">
+						<img src="https://img-books.onestore.co.kr/thumbnails/nate/169_126_20_90/data11/SMILE_DATA11/IMG/PWEBTOONS/202008/27/0029004490/01_0029004490_1835.jpg" />
+					</span>
+					<span class="title">
+						<strong class="comictit">그들에게 사랑받는 법</strong>
+						<span class="author">Cat with glasses studio</span>
+					</span>
+				</a>
+				<cite>툰앤북 <em>웹툰</em></cite>
+			</li>
+		<li>
+				<a href="https://toonnbook.nate.com/detail/H038724960" onmousedown="nc('CBW11');">
+					<span class="thumb">
+						<img src="https://img-books.onestore.co.kr/thumbnails/nate/169_126_20_90/data8/SMILE_DATA8/IMG/PWEBTOONS/202203/10/0034253435/01_0034253435_1023.jpg" />
+					</span>
+					<span class="title">
+						<strong class="comictit">엄마, 집에 왔어요</strong>
+						<span class="author">전세훈</span>
+					</span>
+				</a>
+				<cite>툰앤북 <em>웹툰</em></cite>
+			</li>
+		<li>
+				<a href="https://toonnbook.nate.com/detail/H040335449" onmousedown="nc('CBW12');">
+					<span class="thumb">
+						<img src="https://img-books.onestore.co.kr/thumbnails/nate/169_126_20_90/data11/SMILE_DATA11/IMG/PWEBTOONS/202104/30/0035324441/01_0035324441_1109.jpg" />
+					</span>
+					<span class="title">
+						<strong class="comictit">거울의 숲 : Reflection</strong>
+						<span class="author">오경아</span>
+					</span>
+				</a>
+				<cite>툰앤북 <em>웹툰</em></cite>
+			</li>
+		</ul>
+	</div>
 	<div class="content type_err nHide" id="emergencyLayer">
 		<h4 class="">쇼핑탭 점검중</h4>
 		<p>불편을 드려 죄송합니다.<br />더 좋은 서비스를 위해<br /><strong>쇼핑탭은 지금 점검</strong> 중입니다.</p>
@@ -997,46 +1147,12 @@
 		
 		
 			<li>
-			<a href="https://news.nate.com/view/20220405n11027" title="봄의 햇살을 받으니 더 사랑스러운 듯" onmousedown="nc('RCM01');">
+			<a href="https://news.nate.com/view/20220401n00741" title="두 그릇도 먹게 할 들기름 소금 국수" onmousedown="nc('RCM01');">
 					<span class="thumb">
-						<img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649288438723.jpg"
-						width="94" height="70" alt="봄의 햇살을 받으니 더 사랑스러운 듯" /></span>
+						<img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649292095060.jpg"
+						width="94" height="70" alt="두 그릇도 먹게 할 들기름 소금 국수" /></span>
 						<span class="title">
-						봄의 햇살을 받으니 더 사랑스러운 듯
-						</span> 
-						<cite>
-						 스타
-						</cite>
-			</a>
-			</li>
-		
-		
-		
-		
-			<li>
-			<a href="https://news.nate.com/view/20220406n36292" title="최근 유라 모습 보니 확 달라진 느낌?" onmousedown="nc('RCM02');">
-					<span class="thumb">
-						<img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649290791040.jpg"
-						width="94" height="70" alt="최근 유라 모습 보니 확 달라진 느낌?" /></span>
-						<span class="title">
-						최근 유라 모습 보니 확 달라진 느낌?
-						</span> 
-						<cite>
-						 스타
-						</cite>
-			</a>
-			</li>
-		
-		
-		
-		
-			<li>
-			<a href="https://pann.nate.com/talk/365367974" title="직원들 추천 메뉴로 준비하는 도시락" onmousedown="nc('RCM03');">
-					<span class="thumb">
-						<img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649288467991.jpg"
-						width="94" height="70" alt="직원들 추천 메뉴로 준비하는 도시락" /></span>
-						<span class="title">
-						직원들 추천 메뉴로 준비하는 도시락
+						두 그릇도 먹게 할 들기름 소금 국수
 						</span> 
 						<cite>
 						 푸드
@@ -1048,15 +1164,49 @@
 		
 		
 			<li>
-			<a href="https://news.nate.com/view/20220325n01953" title="최상급 재료는 물론 예술 같은 비주얼" onmousedown="nc('RCM04');">
+			<a href="https://news.nate.com/view/20220318n07714" title="한옥에서 독보적인 아우라 뽐내는 중?" onmousedown="nc('RCM02');">
 					<span class="thumb">
-						<img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649291978800.jpg"
-						width="94" height="70" alt="최상급 재료는 물론 예술 같은 비주얼" /></span>
+						<img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649294112376.jpg"
+						width="94" height="70" alt="한옥에서 독보적인 아우라 뽐내는 중?" /></span>
 						<span class="title">
-						최상급 재료는 물론 예술 같은 비주얼
+						한옥에서 독보적인 아우라 뽐내는 중?
+						</span> 
+						<cite>
+						 스타
+						</cite>
+			</a>
+			</li>
+		
+		
+		
+		
+			<li>
+			<a href="https://news.nate.com/view/20220407n03774" title="따뜻한 봄날에 즐길 프렌치 식당 모음" onmousedown="nc('RCM03');">
+					<span class="thumb">
+						<img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649294124068.jpg"
+						width="94" height="70" alt="따뜻한 봄날에 즐길 프렌치 식당 모음" /></span>
+						<span class="title">
+						따뜻한 봄날에 즐길 프렌치 식당 모음
 						</span> 
 						<cite>
 						 맛집
+						</cite>
+			</a>
+			</li>
+		
+		
+		
+		
+			<li>
+			<a href="https://pann.nate.com/talk/365691397" title="이민호와 새 드라마 남녀 주인공 확정!" onmousedown="nc('RCM04');">
+					<span class="thumb">
+						<img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649293896058.jpg"
+						width="94" height="70" alt="이민호와 새 드라마 남녀 주인공 확정!" /></span>
+						<span class="title">
+						이민호와 새 드라마 남녀 주인공 확정!
+						</span> 
+						<cite>
+						 스타
 						</cite>
 			</a>
 			</li>
@@ -1094,28 +1244,28 @@
 							<ul class="type_thumb">
 								
 									<li>
-										<a href="https://fortune.nate.com/content/contentInfo.nate?searchcontscd=CT002058" title="운세ㅣ대박 적중사주" onmousedown="nc('RKN91')"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649748713958.gif" alt=""></span>
-										<span class="title">운세ㅣ대박 적중사주<span class="cite">사주로 모든 것을 꿰뚫어본다</span> </span></a>
+										<a href="https://fortune.nate.com/content/contentInfo.nate?searchcontscd=CT000020" title="운세ㅣ천생연분 궁합" onmousedown="nc('RKN91')"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649832154214.gif" alt=""></span>
+										<span class="title">운세ㅣ천생연분 궁합<span class="cite">그사람과 나는 정말 운명일까</span> </span></a>
 									</li>
 								
 									<li>
-										<a href="https://fortune03.nate.com/service_2012/event/event_joo_2020_newbi/event.asp" title="운세ㅣ4월 2일 포춘쿠키" onmousedown="nc('RKN92')"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649748718528.gif" alt=""></span>
-										<span class="title">운세ㅣ4월 2일 포춘쿠키<span class="cite">오늘도 행운 행운 하세요</span> </span></a>
+										<a href="https://fortune.nate.com/event/event.nate?type=year2022_korea" title="운세ㅣ2022 무료 신년운세" onmousedown="nc('RKN92')"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649832158025.gif" alt=""></span>
+										<span class="title">운세ㅣ2022 무료 신년운세<span class="cite">따뜻한 봄 내 인생도 봄</span> </span></a>
 									</li>
 								
 									<li>
-										<a href="http://ms.nate.pupugame.com/" title="명검 | 4월 미션" onmousedown="nc('RKN93')"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649748722108.jpg" alt=""></span>
-										<span class="title">명검 | 4월 미션<span class="cite">점수를 모아 쿠폰을 받아가세요</span> </span></a>
+										<a href="http://mh.nate.pupugame.com/" title="백월광 | 달빛보물함 충전상자" onmousedown="nc('RKN93')"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649832162226.jpg" alt=""></span>
+										<span class="title">백월광 | 달빛보물함 충전상자<span class="cite">금화 충전 후 쿠폰도 받아가세요</span> </span></a>
 									</li>
 								
 									<li>
-										<a href="https://toonnbook.nate.com/detail/H041418839" title="만화 | 일본 인기 드라마의 원작!" onmousedown="nc('RKN94')"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649748726364.png" alt=""></span>
-										<span class="title">만화 | 일본 인기 드라마의 원작!<span class="cite">별 볼일 없는 나를 사랑해 주세요</span> </span></a>
+										<a href="https://toonnbook.nate.com/detail/H900474171" title="만화 | 유쾌한 해적들의 모험" onmousedown="nc('RKN94')"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649832166332.png" alt=""></span>
+										<span class="title">만화 | 유쾌한 해적들의 모험<span class="cite">원피스</span> </span></a>
 									</li>
 								
 									<li>
-										<a href="https://toonnbook.nate.com/detail/H040270747" title="웹툰 | 여자에게 뺨 맞은 건 처음" onmousedown="nc('RKN95')"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649748729849.png" alt=""></span>
-										<span class="title">웹툰 | 여자에게 뺨 맞은 건 처음<span class="cite">악랄한 대표님의 순진한 그녀</span> </span></a>
+										<a href="https://toonnbook.nate.com/detail/H040826872" title="웹툰 | 반려견이 생긴다는 것은" onmousedown="nc('RKN95')"><span class="thumb"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649832171702.png" alt=""></span>
+										<span class="title">웹툰 | 반려견이 생긴다는 것은<span class="cite">안녕, 띵땅</span> </span></a>
 									</li>
 								
 							</ul>
@@ -1233,7 +1383,7 @@
 	<h2>푸터 영역</h2>
 	<div class="notice">
 		<h3><a href="http://helpdesk.nate.com/mainnotice/nate/list.asp" onmousedown="nc('NFT01');">공지사항</a></h3>
-		<a href="https://helpdesk.nate.com/mainnotice/nate/view.asp?number_seq=4380&page=1" onmousedown="nc('NFT02');">불법촬영물등 유통 방지 위한 기술적,관리적 조치 적용 안내</a>
+		<a href="https://helpdesk.nate.com/mainnotice/nate/view.asp?number_seq=4385&page=1" onmousedown="nc('NFT02');">[정보보호캠페인]개인정보 불법 유통 방지 위한 이용자 신고제도 안내</a>
 	</div>	
 	<dl>
 		<dt>네이트 공용 푸터</dt>
@@ -1283,7 +1433,7 @@
 
 
 <div class="area_ad10">
-	<a href="https://pann.nate.com/" onmousedown="setNcCode('NAA21|NAA22',iSvcSeqC-1);"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649376568014.png" width="332" height="90" alt=" 네이트판" /></a>
+	<a href="http://cymera.com/main/ko" onmousedown="setNcCode('NAA21|NAA22',iSvcSeqC-1);"><img src="//main.nateimg.co.kr/img/cms/content_pool/2022/04/1649376591527.png" width="332" height="90" alt=" 싸이메라" /></a>
 </div>
 					
 				
