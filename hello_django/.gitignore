@@ -1,4 +1,4 @@
-./myvenv/
-./helloworld/helloworld/
-./helloworld/myapp/__pycache__/
-./helloworld/myapp/migrations/
+myvenv/
+helloworld/helloworld/
+helloworld/myapp/__pycache__/
+helloworld/myapp/migrations/
