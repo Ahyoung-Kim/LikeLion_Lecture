@@ -36,7 +36,7 @@ def make_issac_list():
 
   return issac_list
 
-#print(make_issac_list())
+print(make_issac_list())
 
 def search_map(search_text):
     # search_text에는 도로명 주소 하나씩이 담기게 됨
