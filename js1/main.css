@@ -18,3 +18,42 @@
 .show {
   display: block;
 }
+
+ul.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+ul.list::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.tab-button {
+  display: block;
+  padding: 10px 20px 10px 20px;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+.tab-content {
+  display: none;
+  padding: 10px;
+}
+
+.here {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 3px solid orange;
+  color: black;
+  margin-top: -2px;
+}
+.show {
+  display: block;
+}
