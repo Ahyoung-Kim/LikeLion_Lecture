@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    .timeout {
+      width: 60%;
+      height: 100px;
+      text-align: center;
+      padding-top: 60px;
+      background-color: orange;
+    }
+  </style>
+  <div class="timeout">7초 후에 내가 사라져볼게</div>
+
+  <script>
+    let timecnt = 7;
+    const timeout = document.querySelector('.timeout')
+
+    setInterval(function(){
+      timecnt--;
+      timeout.innerHTML = `${timecnt}초 후에 내가 사라져볼게`
+    }, 1000);
+
+    setTimeout(function(){
+      timeout.style.display = 'none'
+    }, 7000)
+  </script>
+</body>
+</html>
