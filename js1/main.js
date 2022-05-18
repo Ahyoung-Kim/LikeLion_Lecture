@@ -1,17 +1,29 @@
-const animal = document.getElementsByClassName("animal")
-const animals = document.querySelector("#animals")
+const btn = document.querySelector('#btn')
 
-animal[0].style.color = 'red';
-animal[1].style.color = 'green';
-animal[2].style.color = 'blue';
+btn.addEventListener('click', function(){
+  console.log('click!');
+})
 
-animal[0].innerText = "dog";
+const plus = document.querySelector('#plus')
+const num = document.querySelector('#num')
+const minus = document.querySelector('#minus')
 
-animals.innerHTML += "<li>cat</li>"
+let n = 0
 
-const box = document.querySelector('.box')
+plus.addEventListener('click', function(){
+  n++;
+  num.innerText = n;
+})
+minus.addEventListener('click', function(){
+  n--;
+  num.innerText = n;
+});
 
-box.classList.add('purple')
-box.classList.remove('purple')
+const bar = document.querySelector('.bar')
+const newbar = document.querySelector('.newBar')
 
-box.classList.toggle('yellow')  // yellow 클래스가 있다면 제거하고, 없다면 추가 
+bar.addEventListener('click', function(){
+  //newbar.style.display = "block";
+  newbar.classList.toggle('show')
+  bar.innerText = '눌렀어'
+});

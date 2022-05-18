@@ -1,14 +1,20 @@
-.box {
+.bar {
   width: 100%;
   height: 50px;
-  border: 2px solid black;
-  border-radius: 10px;
+  background-color: skyblue;
+  text-align: center;
+  padding-top: 20px;
 }
 
-.purple {
-  background-color: purple;
+.newBar {
+  width: 100%;
+  height: 50px;
+  background-color: orange;
+  text-align: center;
+  padding-top: 20px;
+  display: none;
 }
 
-.yellow {
-  background-color: yellow;
+.show {
+  display: block;
 }
