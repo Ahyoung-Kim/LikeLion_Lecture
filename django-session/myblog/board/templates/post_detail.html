@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>디테일 페이지</title>
+</head>
+<body>
+  <style>
+    p {
+      width: 60%;
+      height: 300px;
+    }
+  </style>
+  <h1>제목: {{ post.title }}</h1>
+  <h3>작성날짜: {{ post.post_time }}</h3>
+  <p>
+    {{ post.body }}
+  </p>
+  <a href="{% url 'post_edit' index=post.pk %}">수정</a>
+  <a href="{% url 'post_delete' index=post.pk %}">삭제</a>
+</body>
+</html>

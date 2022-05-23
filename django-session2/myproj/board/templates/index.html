@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>블로그</title>
+
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+  <h1>장고로 처음 만든 내 블로그...</h1>
+
+  <a href="{% url 'post_new' %}">새 글 등록하기</a>
+
+  <br />
+
+  {% for post in posts %}
+  <hr />
+  <div class="post">
+    <a href="{% url 'post_detail' index=post.pk %}">{{ post.title }}</a>
+    <h3>제목: {{ post.title }}</h3>
+    <span>작성날짜: {{ post.post_time }}</span>
+    <article>{{ post.body }}</article>
+  </div>
+  {% endfor %}
+</body>
+</html>

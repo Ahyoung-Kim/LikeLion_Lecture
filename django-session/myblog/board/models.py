@@ -9,3 +9,9 @@ class Post(models.Model):
   title = models.CharField(max_length=50)
   post_time = models.DateTimeField(default=timezone.now)
   body = models.TextField(default='')
+
+
+class Comm(models.Model):
+  comment = models.TextField(default='')
+  time = models.DateTimeField(default=timezone.now)
+  post = models.ForeignKey(Post, on_delete=models.CASCADE)

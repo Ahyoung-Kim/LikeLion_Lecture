@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>디테일 페이지</title>
+</head>
+<body>
+  <style>
+    p {
+      width: 60%;
+      height: 300px;
+    }
+  </style>
+  <h1>제목: {{ post.title }}</h1>
+  <h3>작성날짜: {{ post.post_time }}</h3>
+  <p>
+    {{ post.body }}
+  </p>
+  <a href="{% url 'post_edit' index=post.pk %}">수정</a>
+  <a href="{% url 'post_delete' index=post.pk %}">삭제</a>
+
+
+  <div class="comment">
+    <form action="" method="POST" class="post-form">
+      {% csrf_token %}
+      <textarea name="body" type="text"></textarea>
+      <button type="submit">댓글작성</button>
+    </form>
+
+    <div class="comment-list">
+      {% for comment in comment_list %}
+      <span>{{ comment.time }}</span>
+      {{ comment.body }}<br/>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div>
+    <a href="{% url 'home' %}">메인홈으로 가기</a>
+  </div>
+</body>
+</html>

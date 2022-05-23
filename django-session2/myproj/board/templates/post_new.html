@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>새 글 등록</title>
+</head>
+<body>
+  <h1>블로그의 새 글을 등록하는 페이지 입니다.</h1>
+
+  <form action="" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    <button type="submit">저장</button>
+  </form>
+</body>
+</html>

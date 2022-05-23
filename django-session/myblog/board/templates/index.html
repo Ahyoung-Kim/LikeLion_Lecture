@@ -16,7 +16,7 @@
   {% for post in posts %}
   <hr />
   <div class="post">
-    <a href="{% url 'detail' post.id %}">{{ post.title }}</a>
+    <a href="{% url 'post_detail' index=post.pk %}">{{ post.title }}</a>
     <h3>제목: {{ post.title }}</h3>
     <span>작성날짜: {{ post.post_time }}</span>
     <article>{{ post.body }}</article>
